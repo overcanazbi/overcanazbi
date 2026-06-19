@@ -3,47 +3,51 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Overcanazbi</title>
+<title>OVERCANAZBI | Local Pride, Modern Style</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
 <style>
 *{
-margin:0;
-padding:0;
-box-sizing:border-box;
-font-family:Arial,sans-serif;
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+html{
+    scroll-behavior:smooth;
 }
 
 body{
-background:#f5f5f5;
-color:#222;
+    background:#f7f4ee;
+    color:#333;
 }
 
 header{
-background:#000;
-color:white;
-text-align:center;
-padding:80px 20px;
+    background:#ffffff;
+    padding:15px 8%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    box-shadow:0 2px 10px rgba(0,0,0,0.08);
+    position:sticky;
+    top:0;
+    z-index:1000;
 }
 
-header h1{
-font-size:50px;
-margin-bottom:10px;
+.logo-text{
+    font-size:24px;
+    font-weight:700;
+    color:#5c4b37;
 }
 
-header p{
-font-size:18px;
+nav a{
+    text-decoration:none;
+    color:#5c4b37;
+    margin-left:20px;
+    font-weight:500;
 }
 
-section{
-padding:60px 10%;
-}
-
-h2{
-text-align:center;
-margin-bottom:30px;
-}
-
-.products{
-display:flex;
-gap:20px;
-justify-content:c
+nav a:hover{
+    color:#b99b67;
