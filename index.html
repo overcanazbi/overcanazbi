@@ -1,63 +1,169 @@
 <!DOCTYPE html>
-<html>
+<html lang="id">
 <head>
-    <title>OVERCANAZBI</title>
-    <style>
-        body{
-            font-family: Arial, sans-serif;
-            text-align:center;
-            margin:20px;
-        }
-        .produk{
-            display:inline-block;
-            margin:15px;
-        }
-        .produk img{
-            width:250px;
-            border-radius:10px;
-        }
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>OVERCANAZBI</title>
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+font-family:Arial,sans-serif;
+background:#f5f5f5;
+color:#333;
+}
+
+header{
+background:#111;
+color:white;
+text-align:center;
+padding:40px 20px;
+}
+
+header img{
+width:150px;
+margin-bottom:15px;
+}
+
+header h1{
+font-size:36px;
+}
+
+header p{
+margin-top:10px;
+color:#ccc;
+}
+
+.judul{
+text-align:center;
+margin:40px 0 20px;
+}
+
+.produk-container{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+gap:20px;
+padding:20px;
+}
+
+.produk{
+background:white;
+width:280px;
+border-radius:15px;
+overflow:hidden;
+box-shadow:0 3px 10px rgba(0,0,0,0.1);
+text-align:center;
+}
+
+.produk img{
+width:100%;
+height:320px;
+object-fit:cover;
+}
+
+.produk h3{
+margin:15px 0 10px;
+}
+
+.harga{
+font-size:18px;
+font-weight:bold;
+margin-bottom:10px;
+}
+
+.btn{
+display:inline-block;
+background:#25D366;
+color:white;
+text-decoration:none;
+padding:10px 20px;
+border-radius:8px;
+margin-bottom:20px;
+}
+
+footer{
+background:#111;
+color:white;
+text-align:center;
+padding:25px;
+margin-top:40px;
+}
+</style>
+
 </head>
 <body>
 
-    <img src="logo.png" width="200">
-    <h1>OVERCANAZBI</h1>
-    <p>Local Pride Modern Style</p>
+<header>
+<img src="logo.png" alt="Logo Overcanazbi">
+<h1>OVERCANAZBI</h1>
+<p>Local Pride • Modern Style</p>
+</header>
 
-    <h2>Koleksi Kaos</h2>
+<h2 class="judul">Koleksi Kaos</h2>
 
-    <div class="produk">
-        <img src="kaos-abumuda.png">
-        <p>Kaos Abu Muda</p>
-    </div>
+<div class="produk-container">
 
-    <div class="produk">
-        <img src="kaos-cream.png">
-        <p>Kaos Cream</p>
-    </div>
+<div class="produk">
+<img src="kaos-abumuda.png" alt="Kaos Abu Muda">
+<h3>Kaos Abu Muda</h3>
+<p class="harga">Rp 125.000</p>
+<a class="btn" href="https://wa.me/6281234567890">Pesan via WhatsApp</a>
+</div>
 
-    <div class="produk">
-        <img src="kaos-coklat.png">
-        <p>Kaos Coklat</p>
-    </div>
+<div class="produk">
+<img src="kaos-cream.png" alt="Kaos Cream">
+<h3>Kaos Cream</h3>
+<p class="harga">Rp 125.000</p>
+<a class="btn" href="https://wa.me/6281234567890">Pesan via WhatsApp</a>
+</div>
 
-    <h2>Koleksi Totebag</h2>
+<div class="produk">
+<img src="kaos-coklat.png" alt="Kaos Coklat">
+<h3>Kaos Coklat</h3>
+<p class="harga">Rp 125.000</p>
+<a class="btn" href="https://wa.me/6281234567890">Pesan via WhatsApp</a>
+</div>
 
-    <div class="produk">
-        <img src="totebag-cream.png">
-        <p>Totebag Cream</p>
-    </div>
+</div>
 
-    <div class="produk">
-        <img src="totebag-coklat.png">
-        <p>Totebag Coklat</p>
-    </div>
+<h2 class="judul">Koleksi Totebag</h2>
 
-    <div class="produk">
-        <img src="totebag-hitam.png">
-        <p>Totebag Hitam</p>
-    </div>
+<div class="produk-container">
+
+<div class="produk">
+<img src="totebag-cream.png" alt="Totebag Cream">
+<h3>Totebag Cream</h3>
+<p class="harga">Rp 75.000</p>
+<a class="btn" href="https://wa.me/6281234567890">Pesan via WhatsApp</a>
+</div>
+
+<div class="produk">
+<img src="totebag-coklat.png" alt="Totebag Coklat">
+<h3>Totebag Coklat</h3>
+<p class="harga">Rp 75.000</p>
+<a class="btn" href="https://wa.me/6281234567890">Pesan via WhatsApp</a>
+</div>
+
+<div class="produk">
+<img src="totebag-hitam.png" alt="Totebag Hitam">
+<h3>Totebag Hitam</h3>
+<p class="harga">Rp 75.000</p>
+<a class="btn" href="https://wa.me/6281234567890">Pesan via WhatsApp</a>
+</div>
+
+</div>
+
+<footer>
+<h3>OVERCANAZBI</h3>
+<p>Instagram: @overcanazbi</p>
+<p>&copy; 2025 OVERCANAZBI</p>
+</footer>
 
 </body>
 </html>
-Update index.html
