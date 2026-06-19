@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>OVERCANAZBI</title>
+<title>OVERCANAZBI - Atlantic Modern Fashion</title>
 
 <style>
 *{
@@ -14,7 +14,7 @@ box-sizing:border-box;
 
 body{
 font-family:Arial,sans-serif;
-background:#f5f5f5;
+background:#f7f7f7;
 color:#333;
 }
 
@@ -22,59 +22,74 @@ header{
 background:#111;
 color:white;
 text-align:center;
-padding:40px 20px;
+padding:50px 20px;
 }
 
 header img{
-width:150px;
+width:170px;
 margin-bottom:15px;
 }
 
 header h1{
-font-size:36px;
+font-size:40px;
+margin-bottom:10px;
 }
 
 header p{
-margin-top:10px;
-color:#ccc;
+font-size:18px;
+color:#ddd;
+}
+
+.tentang{
+max-width:900px;
+margin:40px auto;
+padding:20px;
+text-align:center;
+line-height:1.8;
 }
 
 .judul{
 text-align:center;
-margin:40px 0 20px;
+margin:30px 0;
+font-size:32px;
 }
 
 .produk-container{
 display:flex;
 flex-wrap:wrap;
 justify-content:center;
-gap:20px;
+gap:25px;
 padding:20px;
 }
 
 .produk{
 background:white;
-width:280px;
+width:300px;
 border-radius:15px;
 overflow:hidden;
-box-shadow:0 3px 10px rgba(0,0,0,0.1);
+box-shadow:0 4px 12px rgba(0,0,0,0.1);
 text-align:center;
 }
 
 .produk img{
 width:100%;
-height:320px;
+height:350px;
 object-fit:cover;
 }
 
 .produk h3{
-margin:15px 0 10px;
+margin-top:15px;
+}
+
+.deskripsi{
+padding:10px;
+color:#666;
 }
 
 .harga{
-font-size:18px;
+font-size:20px;
 font-weight:bold;
-margin-bottom:10px;
+margin:10px 0;
 }
 
 .btn{
@@ -82,28 +97,55 @@ display:inline-block;
 background:#25D366;
 color:white;
 text-decoration:none;
-padding:10px 20px;
+padding:12px 20px;
 border-radius:8px;
-margin-bottom:20px;
+margin:15px;
+font-weight:bold;
+}
+
+.btn:hover{
+opacity:0.9;
+}
+
+.kontak{
+background:white;
+max-width:900px;
+margin:40px auto;
+padding:30px;
+border-radius:15px;
+text-align:center;
+box-shadow:0 4px 12px rgba(0,0,0,0.08);
+}
+
+.kontak p{
+margin:10px 0;
 }
 
 footer{
 background:#111;
 color:white;
 text-align:center;
-padding:25px;
+padding:30px;
 margin-top:40px;
 }
 </style>
-
 </head>
+
 <body>
 
 <header>
 <img src="logo.png" alt="Logo Overcanazbi">
 <h1>OVERCANAZBI</h1>
-<p>Local Pride • Modern Style</p>
+<p>Atlantic Modern Fashion</p>
 </header>
+
+<section class="tentang">
+<h2>Selamat Datang di OVERCANAZBI</h2>
+<br>
+<p>
+OVERCANAZBI adalah brand Atlantic Modern Fashion yang menghadirkan koleksi kaos dan totebag dengan desain modern, nyaman digunakan, dan cocok untuk berbagai aktivitas sehari-hari.
+</p>
+</section>
 
 <h2 class="judul">Koleksi Kaos</h2>
 
@@ -112,22 +154,25 @@ margin-top:40px;
 <div class="produk">
 <img src="kaos-abumuda.png" alt="Kaos Abu Muda">
 <h3>Kaos Abu Muda</h3>
+<p class="deskripsi">Desain modern dan nyaman digunakan setiap hari.</p>
 <p class="harga">Rp 125.000</p>
-<a class="btn" href="https://wa.me/6281234567890">Pesan via WhatsApp</a>
+<a class="btn" href="https://wa.me/6281284914073">Pesan via WhatsApp</a>
 </div>
 
 <div class="produk">
 <img src="kaos-cream.png" alt="Kaos Cream">
 <h3>Kaos Cream</h3>
+<p class="deskripsi">Tampilan elegan dan mudah dipadukan.</p>
 <p class="harga">Rp 125.000</p>
-<a class="btn" href="https://wa.me/6281234567890">Pesan via WhatsApp</a>
+<a class="btn" href="https://wa.me/6281284914073">Pesan via WhatsApp</a>
 </div>
 
 <div class="produk">
 <img src="kaos-coklat.png" alt="Kaos Coklat">
 <h3>Kaos Coklat</h3>
+<p class="deskripsi">Warna earthy yang stylish dan kekinian.</p>
 <p class="harga">Rp 125.000</p>
-<a class="btn" href="https://wa.me/6281234567890">Pesan via WhatsApp</a>
+<a class="btn" href="https://wa.me/6281284914073">Pesan via WhatsApp</a>
 </div>
 
 </div>
@@ -139,30 +184,44 @@ margin-top:40px;
 <div class="produk">
 <img src="totebag-cream.png" alt="Totebag Cream">
 <h3>Totebag Cream</h3>
+<p class="deskripsi">Praktis, kuat, dan cocok untuk aktivitas harian.</p>
 <p class="harga">Rp 75.000</p>
-<a class="btn" href="https://wa.me/6281234567890">Pesan via WhatsApp</a>
+<a class="btn" href="https://wa.me/6281284914073">Pesan via WhatsApp</a>
 </div>
 
 <div class="produk">
 <img src="totebag-coklat.png" alt="Totebag Coklat">
 <h3>Totebag Coklat</h3>
+<p class="deskripsi">Desain modern dengan warna yang elegan.</p>
 <p class="harga">Rp 75.000</p>
-<a class="btn" href="https://wa.me/6281234567890">Pesan via WhatsApp</a>
+<a class="btn" href="https://wa.me/6281284914073">Pesan via WhatsApp</a>
 </div>
 
 <div class="produk">
 <img src="totebag-hitam.png" alt="Totebag Hitam">
 <h3>Totebag Hitam</h3>
+<p class="deskripsi">Minimalis dan cocok untuk berbagai kebutuhan.</p>
 <p class="harga">Rp 75.000</p>
-<a class="btn" href="https://wa.me/6281234567890">Pesan via WhatsApp</a>
+<a class="btn" href="https://wa.me/6281284914073">Pesan via WhatsApp</a>
 </div>
 
+</div>
+
+<div class="kontak">
+<h2>Hubungi Kami</h2>
+<p><strong>Brand:</strong> OVERCANAZBI - Atlantic Modern Fashion</p>
+<p><strong>WhatsApp:</strong> 081284914073</p>
+<p><strong>Email:</strong> syarifahazzikra06@gmail.com</p>
 </div>
 
 <footer>
 <h3>OVERCANAZBI</h3>
-<p>Instagram: @overcanazbi</p>
-<p>&copy; 2025 OVERCANAZBI</p>
+<p>Atlantic Modern Fashion</p>
+<br>
+<p>Email: syarifahazzikra06@gmail.com</p>
+<p>WhatsApp: 081284914073</p>
+<br>
+<p>&copy; 2025 OVERCANAZBI. All Rights Reserved.</p>
 </footer>
 
 </body>
